@@ -1,0 +1,5 @@
+name: deploy-somewhere
+description: deploy-somewhere
+runs:
+  using: 'node20'
+  main: 'main.js'
