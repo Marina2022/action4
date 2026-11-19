@@ -13,6 +13,8 @@ jobs:
         uses: ./.github/actions/cached-deps
       - name: Lint code
         run: npm run lint
+      - name: Say hello
+        uses:  ./.github/actions/deploy-somewhere
   test:
     runs-on: ubuntu-latest
     steps:
